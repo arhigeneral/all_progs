@@ -1,0 +1,8 @@
+print("введите строку")
+s = input()
+s = s.rjust(10)
+print(s)
+print(len(s))
+s = s.replace(' ','0')
+print(s)
+print('Наша строка')
